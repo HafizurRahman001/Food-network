@@ -27,14 +27,16 @@ h1{
 }
 
 .half-width p {
-    color: gray;
+    color:gray;
     margin-bottom: 60px;
     width: 451px;
     margin-top: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
  }
 
 .visitable-link {
-    background-image: linear-gradient(to left, #fd4d30, #fb9149);
+    background-image: linear-gradient(to right, #fb9149,#fd4d30);
     border-radius: 30px;
     box-shadow: 5px 2px 26px rgba(255, 99, 71, 0.719);
     color: white;
@@ -42,11 +44,35 @@ h1{
     text-decoration: none;
   }
   
-.side-image{
-    width: 100%;
-    
+.side-image{}
+
+
+
+.middle-section-background{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    margin-bottom: 100px;
 }
-.{}
-.{}
-.{}
-.{}
+#middle-section-image{
+    padding-left: 100px;
+}
+
+#persional-info{
+    color:rgb(99, 97, 97);
+}
+#about-info-paragraph{
+    color:black;
+    padding-bottom: 50px;
+}
+.recipies{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.recipies p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+#heading-recipies{
+    color:rgb(99, 97, 97);
+}
