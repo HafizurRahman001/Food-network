@@ -1,3 +1,5 @@
+/* ===============first part================== */
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -49,7 +51,7 @@ h1{
   
 
 
-
+/* =================second part================== */
 
 .middle-section-background{
     background-image: url(images/shapes/Frame\ 59.jpg);
@@ -85,6 +87,7 @@ h1{
 
 
 
+/* ===============third part===================== */
 
 .footer-top-first{
     margin-bottom: 60px;
@@ -122,6 +125,7 @@ h1{
     margin-bottom: 60px;
   }
 
+/* =====================footer part=================== */
 
   footer{
       background-color: black;
@@ -133,3 +137,36 @@ h1{
       color:tomato;
   }
  
+
+  /* ==============Bonus part============== */
+
+  .nav-section {
+    background-image: linear-gradient(to left, #e8dcd0, #eee2d6);
+    display: flex;
+  }
+  .nav-content {
+    margin-left: 63px;
+    width: 100%;
+  }
+  .nav-content li {
+    width: 153px;
+  }
+  .flex-display{
+      display: flex;
+      list-style: none;
+    
+  }
+  .flex-display li a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+  }
+  #active{
+      color: #ff5339;
+     
+  }
+  #search-icon {
+    float: right;
+    width: 33px;
+  }
