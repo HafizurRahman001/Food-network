@@ -66,7 +66,7 @@ h1{
     padding-left: 100px;
 }
 
-#persional-info{
+#heading1-style{
     color:rgb(99, 97, 97);
 }
 #about-info-paragraph{
@@ -85,9 +85,6 @@ h1{
     margin-bottom: -43px;
   }
 
-#heading-recipies{
-    color:rgb(99, 97, 97);
-}
 
 
 
@@ -174,4 +171,30 @@ h1{
   #search-icon {
     float: right;
     width: 33px;
+  }
+
+
+/* ===============food item part============ */
+
+  .food-item-section {
+    margin-bottom: 38px;
+    text-align: center;
+  }
+  .food-item {
+    background-color: #cae3e8;
+    box-shadow: 3px 6px 7px gray;
+    display: flex;
+    margin-bottom: 26px;
+  }
+  .food-list {
+    margin-left: 7%;
+    margin-right: 5%;
+    width: 20%;
+  }
+  .food-list ol li a {
+    color: black;
+    text-decoration: none;
+  }
+  .food-item-heading{
+    color: rgb(228, 29, 145);
   }
