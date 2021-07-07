@@ -48,7 +48,11 @@ h1{
     padding: 15px 30px;
     text-decoration: none;
   }
-  
+  .side-image {
+    background-image: url("images/shapes/dots_still_2x.gif");
+    background-position: right 41px bottom 36px;
+    background-repeat: no-repeat;
+  }
 
 
 /* =================second part================== */
@@ -145,16 +149,17 @@ h1{
     display: flex;
   }
   .nav-content {
-    margin-left: 63px;
+    box-shadow: 2px 2px 8px gray;
     width: 100%;
+    margin-bottom: 1px;
   }
   .nav-content li {
     width: 153px;
   }
-  .flex-display{
-      display: flex;
-      list-style: none;
-    
+  .flex-display {
+    display: flex;
+    list-style: outside none none;
+    margin-left: 63px;
   }
   .flex-display li a {
     padding-left: 20px;
